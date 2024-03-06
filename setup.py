@@ -19,7 +19,7 @@ setup(name='package-tea-one',  # 包名
       author='hanyan_news',
       author_email='hanyan0572@gmail.com',
       url='https://github.com/hanyan007/package-tea-one.git',
-      install_requires=[],
+      install_requires=["package-tea-hanyan==1.0.3", "restful-dnspod-log==1.0.1"],
       project_urls={  # Optional
         "Source": 'https://github.com/hanyan007/package-tea-one.git',
       },
