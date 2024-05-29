@@ -13,13 +13,13 @@ with open("README.rst", "r") as f:
 
 
 setup(name='package-tea-one',  # 包名
-      version='1.0.0',  # 版本号
-      description='small package just example',
+      version='1.0.1',  # 版本号
+      description='example for pypi',
       long_description=long_description,
       author='hanyan_news',
       author_email='hanyan0572@gmail.com',
       url='https://github.com/hanyan007/package-tea-one.git',
-      install_requires=["package-tea-hanyan==1.0.3", "restful-dnspod-log==1.0.1"],
+      install_requires=["package-tea-one==1.0.0", "restful-dnspod-log==1.0.1"],
       project_urls={  # Optional
         "Source": 'https://github.com/hanyan007/package-tea-one.git',
       },
